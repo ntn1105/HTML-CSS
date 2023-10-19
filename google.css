@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#282820 ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+	height: 100vh;
+  
+}
+#main .heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    color: aliceblue;
+    text-align: center;
+    
+    margin-bottom: 30px;
+    
+
+}
+#main .form{
+    font-size: 15px;
+    position: relative;
+}
+input {
+   width: 500px;
+   height: 50px;
+   border-radius: 50px;
+   border : 0 ;
+   outline: 0;
+   font-size: 22px;
+  
+    
+}
+#main .fa-solid{
+    font-size: 30px;
+    position: absolute; 
+    top:50% ;
+    transform: translateY(-50%);
+    
+
+}
+.fa-magnifying-glass{
+    left: 10px;
+
+  
+    
+}
+.fa-microphone{
+
+    right: 10px;
+
+}
+.fa-camera{
+
+    right: 50px;
+
+  
+}
+button{
+
+
+padding:10px;
+color:  white;
+background-color: rgb(37, 30, 30);
+outline: 0;
+border: 0 ;
+transition: all 2s;
+border-radius: 10px;
+
+}
+button:hover{
+border: 0.5px solid white;
+
+}
+.btn{
+    margin:20px 0px;
+    display: flex;
+    justify-content: center;
+    gap:0px 10px ;
+}
